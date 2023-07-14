@@ -1,0 +1,77 @@
+
+#user_avatar {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+#bot_avatar {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+body {
+
+background-color: #343543;
+color: white;
+
+}
+
+#user {
+
+    padding: 5px;
+    background-color: #343543;
+    border-radius: 20px;
+    color: white;
+
+}
+
+#list-group {
+
+    border-radius: 20px;
+    background-color: #303037;
+    height: 620px;
+    overflow: auto;
+
+}
+
+#gpt-button {
+
+    color: white;
+    background-color: #303037;
+    border-color: #303037;
+    margin-top: 10px;
+
+}
+
+#chat-input {
+
+    margin-top: 10px;
+    overflow: scroll;
+    border-radius: 20px;
+    height: 35px;
+
+}
+
+::-webkit-scrollbar {
+
+    width: 10px;
+    border-radius: 20px; 
+    
+}
+
+::-webkit-scrollbar-track {
+  background: #303037; 
+
+  border-radius: 20px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6D839F;
+  border-radius: 20px; 
+}
