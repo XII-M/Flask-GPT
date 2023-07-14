@@ -43,9 +43,6 @@ def index():
 @app.route('/processUserInfo/<prompt>', methods=['POST'])
 def processUserInfo(prompt):
 
-    print(prompt)
-    print("-------------------------")
-
     userInfo = json.loads(prompt)
     
 
